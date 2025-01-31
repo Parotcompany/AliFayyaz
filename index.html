@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ali king</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <nav class="bg-white shadow-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <a href="#" class="text-2xl font-bold text-indigo-600">Ali king 👑</a>
+                </div>
+                <div class="hidden md:flex space-x-6 items-center">
+                    <a href="/graphic design /section.html" class="text-gray-700 hover:text-indigo-600">Home</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600">About</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600">Services</a>
+                    <a href="#" class="text-gray-700 hover:text-indigo-600">Contact</a>
+                    <a href="#" class="bg-indigo-600 text-white px-4 py-2 rounded-md hover:bg-indigo-700">Sign Up</a>
+                </div>
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Home</a>
+            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">About</a>
+            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Services</a>
+            <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Contact</a>
+            <a href="#" class="block px-4 py-2 bg-indigo-600 text-white text-center hover:bg-indigo-700">Sign Up</a>
+        </div>
+    </nav>
+
+    <script>
+        // Toggle Mobile Menu
+        document.getElementById("mobile-menu-button").addEventListener("click", function () {
+            document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+    </script>
+
+
+
+
+
+<!-- Hero Section -->
+    <section class="flex flex-col md:flex-row items-center justify-between max-w-7xl mx-auto px-6 py-20">
+        <!-- Left Side - Text Content -->
+        <div class="md:w-1/2 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-extrabold text-gray-900">
+                Creative <span class="text-indigo-600">Graphic Design</span> Solutions
+            </h1>
+            <p class="mt-4 text-lg text-gray-600">
+                Elevate your brand with visually stunning and strategic design solutions. Let’s craft something amazing together!
+            </p>
+            <a href="#" class="mt-6 inline-block bg-indigo-600 text-white px-6 py-3 rounded-md text-lg font-semibold hover:bg-indigo-700 transition">
+                Get Started
+            </a>
+        </div>
+
+        <!-- Right Side - Image -->
+        <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">🎑
+            <img src="/graphic design /alibhai🎑" alt="Graphic Design" class="rounded-lg shadow-lg">
+        </div>
+    </section>
+    
+    
+    
+    
+    
+    <section class="relative bg-gradient-to-r from-indigo-500 to-purple-600 py-20 px-6 text-white">
+    <div class="max-w-7xl mx-auto text-center">
+        <h2 class="text-4xl font-extrabold mb-4">Create Stunning Designs with Passion</h2>
+        <p class="text-lg text-gray-200 max-w-2xl mx-auto">
+            Elevate your brand with visually striking designs. Let’s turn your ideas into reality with creativity and expertise.
+        </p>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
+            <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 class="text-2xl font-semibold">Innovative Ideas</h3>
+                <p class="mt-2 text-gray-300">Transforming concepts into compelling visuals that stand out.</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 class="text-2xl font-semibold">High-Quality Designs</h3>
+                <p class="mt-2 text-gray-300">Delivering stunning, pixel-perfect visuals for brands and businesses.</p>
+            </div>
+            <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg shadow-lg transition-transform transform hover:scale-105">
+                <h3 class="text-2xl font-semibold">Creative Excellence</h3>
+                <p class="mt-2 text-gray-300">Blending art with strategy to create meaningful designs.</p>
+            </div>
+        </div>
+
+        <a href="#" class="mt-8 inline-block bg-white text-indigo-600 px-6 py-3 rounded-md text-lg font-semibold hover:bg-gray-200 transition">
+            Explore More
+        </a>
+    </div>
+</section>
+
+
+
+
+ <section class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="text-center">
+      <h2 class="text-4xl font-extrabold text-blue-500 sm:text-5xl">What Clients Say</h2>
+      <p class="mt-4 text-gray-300 text-lg">Hear from those who have worked with me.</p>
+    </div>
+
+    <!-- Reviews Grid -->
+    <div class="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      
+      <!-- Review Card -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div class="flex items-center mb-4">
+          <img src="https://via.placeholder.com/50" alt="User" class="w-12 h-12 rounded-full mr-3">
+          <div>
+            <h4 class="text-lg font-semibold">John Doe</h4>
+            <p class="text-sm text-gray-400">CEO, Tech Corp</p>
+          </div>
+        </div>
+        <p class="text-gray-300">
+          "An exceptional developer and designer! The website exceeded our expectations."
+        </p>
+        <!-- Rating Stars -->
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+
+      <!-- Review Card -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div class="flex items-center mb-4">
+          <img src="https://via.placeholder.com/50" alt="User" class="w-12 h-12 rounded-full mr-3">
+          <div>
+            <h4 class="text-lg font-semibold">Sarah Williams</h4>
+            <p class="text-sm text-gray-400">Marketing Manager</p>
+          </div>
+        </div>
+        <p class="text-gray-300">
+          "Great creativity and technical skills. Our branding and web presence improved dramatically!"
+        </p>
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+
+      <!-- Review Card -->
+      <div class="bg-gray-800 p-6 rounded-lg shadow-lg">
+        <div class="flex items-center mb-4">
+          <img src="https://via.placeholder.com/50" alt="User" class="w-12 h-12 rounded-full mr-3">
+          <div>
+            <h4 class="text-lg font-semibold">Michael Smith</h4>
+            <p class="text-sm text-gray-400">Entrepreneur</p>
+          </div>
+        </div>
+        <p class="text-gray-300">
+          "Highly professional, creative, and detail-oriented. Would definitely recommend!"
+        </p>
+        <div class="mt-4 flex text-yellow-400">
+          ★★★★★
+        </div>
+      </div>
+
+    </div>
+  </section>
+  
+  
+  
+  
+  <section class="flex items-center justify-center min-h-screen bg-gradient-to-r from-indigo-500 to-purple-600 px-6">
+    <div class="bg-white/10 backdrop-blur-md p-8 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-3xl font-extrabold text-white text-center">Login to Your Account</h2>
+        <p class="text-gray-200 text-center mt-2">Access your dashboard and manage your designs effortlessly.</p>
+
+        <form class="mt-6 space-y-4">
+            <!-- Email Input -->
+            <div>
+                <label class="block text-white text-lg font-semibold">Email Address</label>
+                <input type="email" placeholder="Enter your email" 
+                    class="w-full mt-2 px-4 py-3 rounded-md bg-white/20 text-white placeholder-gray-300 focus:ring-2 focus:ring-indigo-300 focus:outline-none">
+            </div>
+
+            <!-- Password Input -->
+            <div>
+                <label class="block text-white text-lg font-semibold">Password</label>
+                <input type="password" placeholder="Enter your password" 
+                    class="w-full mt-2 px-4 py-3 rounded-md bg-white/20 text-white placeholder-gray-300 focus:ring-2 focus:ring-indigo-300 focus:outline-none">
+            </div>
+
+            <!-- Remember Me & Forgot Password -->
+            <div class="flex items-center justify-between text-gray-300 text-sm">
+                <label class="flex items-center">
+                    <input type="checkbox" class="mr-2">
+                    Remember me
+                </label>
+                <a href="#" class="hover:text-white transition">Forgot password?</a>
+            </div>
+
+            <!-- Login Button -->
+            <button type="submit" 
+                class="w-full bg-indigo-500 text-white py-3 rounded-md text-lg font-semibold hover:bg-indigo-600 transition">
+                Sign In
+            </button>
+        </form>
+
+        <!-- Social Login -->
+        <div class="mt-6 text-center">
+            <p class="text-gray-300">Or sign in with</p>
+            <div class="flex justify-center space-x-4 mt-4">
+                <button class="bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" class="w-6" alt="Google">
+                </button>
+                <button class="bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="w-6" alt="Facebook">
+                </button>
+                <button class="bg-white/20 p-3 rounded-full hover:bg-white/30 transition">
+                    <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-6" alt="GitHub">
+                </button>
+            </div>
+        </div>
+
+        <!-- Sign Up Link -->
+        <p class="text-gray-300 text-center mt-6">
+            Don't have an account? <a href="#" class="text-white font-semibold hover:underline">Sign up</a>
+        </p>
+    </div>
+</section>
+
+
+
+
+ <footer class="bg-indigo-600 py-12">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- About Section -->
+        <div>
+          <h2 class="text-2xl font-bold text-white">Ali king👑</h2>
+          <p class="mt-4 text-gray-400">
+            Crafting innovative web solutions and stunning graphic designs to elevate your brand.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div>
+          <h3 class="text-lg font-semibold text-white">Quick Links</h3>
+          <ul class="mt-4 space-y-2">
+            <li><a href="#" class="hover:text-blue-400 transition">Home</a></li>
+            <li><a href="#" class="hover:text-blue-400 transition">About</a></li>
+            <li><a href="#" class="hover:text-blue-400 transition">Services</a></li>
+            <li><a href="#" class="hover:text-blue-400 transition">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div>
+          <h3 class="text-lg font-semibold text-white">Get in Touch</h3>
+          <ul class="mt-4 space-y-2">
+            <li>Email: <a href="mailto:support@mybrand.com" class="hover:text-blue-400 transition">alikingtaj@gmail.com</a></li>
+            <li>Phone: <a href="tel:+1234567890" class="hover:text-blue-400 transition">+92 324 6233787</a></li>
+            <li>Address: 123 anarkali, Gujranwala, Pakistan</li>
+          </ul>
+        </div>
+      </div>
+
+      <hr class="my-8 border-gray-700">
+
+      <!-- Social Media & Copyright -->
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <p class="text-sm text-gray-400">&copy; 2025 Ali king. All rights reserved.</p>
+        <div class="flex space-x-4 mt-4 md:mt-0">
+          <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.408.593 24 1.325 24h11.49V14.708h-3.13v-3.622h3.13V8.411c0-3.1 1.894-4.791 4.66-4.791 1.325 0 2.463.099 2.795.143v3.24h-1.917c-1.505 0-1.795.716-1.795 1.767v2.313h3.589l-.467 3.622h-3.122V24h6.122c.731 0 1.324-.592 1.324-1.324V1.325C24 .593 23.408 0 22.675 0z"/></svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.832 9.832 0 01-2.828.775 4.93 4.93 0 002.165-2.724 9.864 9.864 0 01-3.127 1.195 4.917 4.917 0 00-8.38 4.482c-4.092-.205-7.72-2.165-10.148-5.144a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061c0 2.386 1.697 4.374 3.946 4.829a4.902 4.902 0 01-2.224.085c.627 1.956 2.445 3.379 4.604 3.419A9.867 9.867 0 010 19.54a13.935 13.935 0 007.548 2.212c9.056 0 14.007-7.496 14.007-13.986 0-.213-.005-.426-.015-.637A9.936 9.936 0 0024 4.557z"/></svg>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-blue-400 transition">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.408.593 24 1.325 24h21.351c.731 0 1.324-.592 1.324-1.324V1.325C24 .593 23.408 0 22.675 0zM7.188 20.301H3.83V9.03h3.358v11.271zM5.508 7.793a1.957 1.957 0 110-3.915 1.957 1.957 0 010 3.915zM20.163 20.301h-3.359v-5.611c0-1.338-.026-3.062-1.87-3.062-1.874 0-2.162 1.46-2.162 2.965v5.708h-3.358V9.03h3.226v1.534h.045c.449-.851 1.546-1.748 3.182-1.748 3.403 0 4.03 2.24 4.03 5.152v6.334z"/></svg>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+</html>
